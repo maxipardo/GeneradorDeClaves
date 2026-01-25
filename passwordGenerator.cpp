@@ -1,5 +1,4 @@
 #include <string>
-#include <ctime>
 #include <algorithm>
 #include <random>
 
@@ -31,11 +30,11 @@ std::string generarContraseña(int longitud) {
         if (isprint(next_char)) {
             result += next_char;
         } else {
-            --i; // Retry if the character is not printable
+            --i;
         }
     }
 
-    // Mezclar caracteres para que no sigan un orden predecible
+    // Mezclar caracteres
     std::shuffle(result.begin(), result.end(), gen);
 
     return result;

@@ -22,7 +22,10 @@ private slots:
 
     void on_copyButton_clicked();
 
+    void on_historyButton_clicked();
+
 private:
     Ui::MainWindow *ui;
+    QStringList historialDeClaves;
 };
-#endif // MAINWINDOW_H
+#endif
