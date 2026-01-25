@@ -21,3 +21,14 @@ cmake -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc)
 ./GeneradorDeClaves
 ```
+## 📸 Screenshots ##
+<table>
+  <tr>
+    <td valign="top">
+      <img src="https://github.com/user-attachments/assets/ba61eb67-901f-452a-8713-67d9a6ad4b69" alt="captura_1" width="400" />
+    </td>
+    <td valign="top">
+      <img src="https://github.com/user-attachments/assets/9af59c82-edec-4130-bb9e-318f01b97921" alt="captura_2" width="550" />
+    </td>
+  </tr>
+</table>
